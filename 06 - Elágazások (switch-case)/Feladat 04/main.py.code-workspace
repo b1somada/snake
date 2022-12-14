@@ -1,0 +1,43 @@
+{
+	"folders": [
+		{
+			"path": "../../00 - Bevezetes"
+		},
+		{
+			"path": "../../01 - Kiírás"
+		},
+		{
+			"path": "../../02 - Beolvasás"
+		},
+		{
+			"path": "../../03 - Operátorok"
+		},
+		{
+			"path": "../../04 - String Függvényei"
+		},
+		{
+			"path": "../../05 - Elágazások (if-else)"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../07 - For Ciklus"
+		},
+		{
+			"path": "../../08 - While Ciklus"
+		},
+		{
+			"path": "../../09 - Függvények"
+		},
+		{
+			"path": "../../10 - Halmazok"
+		},
+		{
+			"path": "../../11 - OOP"
+		},
+		{
+			"path": "../../12 - Szöveges állományok feldolgozása"
+		}
+	]
+}

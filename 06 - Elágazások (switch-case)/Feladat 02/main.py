@@ -1,43 +1,33 @@
-month = input("Adja meg a hónapot szövegesen!")
+month: str = None
+
+print("Adja meg a hónap nevét!")
+month = str(input().lower())
 
 match month:
-    
-    case "Január":
+    case "január":
         print("1. hónap")
-    
-    case "Február":
+    case "február":
         print("2. hónap")
-    
-    case "Március":
+    case "március":
         print("3. hónap")
-    
-    case "Április":
+    case "április":
         print("4. hónap")
-    
-    case "Május":
+    case "május":
         print("5. hónap")
-    
-    case "Június":
+    case "június":
         print("6. hónap")
-    
-    case "Július":
+    case "július":
         print("7. hónap")
-    
-    case "Augusztus":
+    case "augusztus":
         print("8. hónap")
-    
-    case "Szeptember":
+    case "szeptember":
         print("9. hónap")
-    
-    case "Október":
+    case "október":
         print("10. hónap")
-    
-    case "November":
+    case "november":
         print("11. hónap")
-    
-    case "December":
+    case "december":
         print("12. hónap")
-    
     case _:
         print("Nincs ilyen hónap")
     
