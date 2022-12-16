@@ -7,9 +7,9 @@ print("Kérem a vég értéket!")
 vegertek = int(input())
 
 if (kezdoertek % 2):
-    kezdoertek-1
+    kezdoertek=kezdoertek
 else:
-    None
+    kezdoertek+1
 
-for i in range(kezdoertek,vegertek,2):
+for i in range(vegertek,kezdoertek,-2):
     print(i)

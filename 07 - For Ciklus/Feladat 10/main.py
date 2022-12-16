@@ -1,15 +1,17 @@
+from os import system
+
 kezdoertek: int = None
 vegertek: int = None
 
 print("Kérem a kezdő értéket!")
 kezdoertek = int(input())
+
 print("Kérem a vég értéket!")
 vegertek = int(input())
 
-if (kezdoertek % 2):
-    kezdoertek-1
-else:
-    None
+sum=0
 
-for i in range(kezdoertek,vegertek,2):
-    print(i)
+for i in range (kezdoertek,vegertek,1):
+    sum = sum + i
+
+print(sum)
